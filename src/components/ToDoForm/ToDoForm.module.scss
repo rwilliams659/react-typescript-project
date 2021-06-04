@@ -1,0 +1,42 @@
+.todoForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10px; 
+}
+
+.formLabel {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.addTodoInput {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 8px 6px;
+  margin-right: 4px; 
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.submitBtn {
+  background-color: blue; 
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  width: 100px; 
+
+  &:hover {
+    cursor: pointer;
+    background-color: darkblue;
+  }
+}
+
+.formSection {
+  margin: 0 200px; 
+}
+
+.errorMsg {
+  color: red;
+}

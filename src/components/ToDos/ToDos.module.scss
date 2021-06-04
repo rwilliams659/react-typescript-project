@@ -1,4 +1,9 @@
 .todos {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin: 2em 10em;
+  height: 100%;
 }

@@ -29,3 +29,12 @@
   align-items: center;
   padding: 0 1em 1em 1em; 
 }
+
+#completedBox {
+  width: 16px;
+  height: 16px; 
+}
+
+.completedLabel {
+  align-self: flex-end; 
+}
